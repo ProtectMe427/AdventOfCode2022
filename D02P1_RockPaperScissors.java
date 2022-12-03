@@ -21,6 +21,7 @@ public class D02P1_RockPaperScissors {
 				my = line.charAt(2);
 				round = 0;
 				
+				//God, please forgive me for making nested switch blocks
 				switch(op) {
 				case('A')	:	switch(my) {
 								case('X')	:	round += 1;
